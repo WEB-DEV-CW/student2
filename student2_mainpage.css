@@ -7,8 +7,8 @@ h1 {
 }
 
 body {
-    background-color: #ddd7d7;
-    padding: 50px 0;
+    background-color: #ffffff;
+    padding-top: 0%;
     color: black;
 }
 
@@ -23,6 +23,7 @@ body {
     list-style: outside none none;
     margin: 1em 1.5em;
     padding: 0;
+    
 }
 
 .menu a {
@@ -47,7 +48,7 @@ body {
     height: 3px;
     width: 0%;
     content: "";
-    background-color: #c0392b;
+    background-color: #196123;
 }
 
 .menu a:after {
@@ -56,7 +57,7 @@ body {
     padding: 0.5em 0;
     position: absolute;
     content: attr(data-hover);
-    color: #ffffff;
+    color: #000000;
     white-space: nowrap;
     max-width: 0%;
     overflow: hidden;
@@ -71,4 +72,47 @@ body {
 .menu a:hover:after,
 .menu .active a:after {
     max-width: 100%;
+}
+
+
+
+.list{
+    position: relative;
+    left: 1200px;
+    top: -50px;
+}
+.left p{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+footer{
+    background-color: rgb(227, 240, 240);
+    height: 150px;
+    bottom: 0%;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.list ul li a{
+    text-decoration: none;
+    
+}
+
+header h1{
+    font-size:80;
+    background-color: aliceblue;
+    padding: 20;
+    
+}
+
+ .inbody{
+    padding: 50px;
+
+}
+img{
+    position: relative;
+    top: -170px;
+    left: 30px;
 }

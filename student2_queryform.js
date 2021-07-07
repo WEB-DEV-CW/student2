@@ -18,9 +18,17 @@ function validateForm() {
     var details=document.getElementById('details').value
     var  result= "Name: "+name +"  "+"E-mail: "+email+"Subject: "+subject+"Details: "+details
 
-    document.getElementById('form').textContent = result;
+    document.getElementById("form").style.visibility="hidden";
 
-    
+    document.getElementById('1').textContent = "Name : "+name;
+    document.getElementById('2').textContent = "E-mail :"+email;
+    document.getElementById('3').textContent = "Subject : "+subject;
+    document.getElementById('4').textContent = "Details : "+details;
+
+    document.getElementById("check").style.visibility="hidden";
+    document.getElementById("viewquery").style.visibility="hidden";
+
+  
 
     
 
@@ -30,9 +38,11 @@ function validateForm() {
  //   document.write("Details: "+details)
 
   }
-  var content=document.getElementById('form')
-  function edit(content){
-    var content=document.getElementById('form')
-    document.getElementById('form').textContent = content;
+  
+  function edit(){
+  //  var content=document.getElementById('form')
+    document.getElementById('form').style.visibility="visible";
+    document.getElementById("check").style.visibility="visible";
+    document.getElementById("viewquery").style.visibility="visible";
 
   }

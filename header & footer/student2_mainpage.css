@@ -107,10 +107,10 @@ header h1{
     padding: 20;
     
 }
-
- .inbody{
+/*This is style for body paragraph with class name in body,remove  the bg colour  after placing code in the paragraph with class name inbody*/
+ .inbody{                                     
     padding: 50px;
-    background-color: beige;
+    background-color: rgb(211, 211, 183);
     height: 500px;
 
 }

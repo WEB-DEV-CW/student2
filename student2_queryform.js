@@ -1,3 +1,4 @@
+// function for check button
 function validateForm() {
   var name=document.getElementById('name').value
   var email=document.getElementById('email').value
@@ -13,7 +14,7 @@ function validateForm() {
       return false;
     }
   }
-
+//  function for view query
   function results(){
     var name=document.getElementById('name').value
     var email=document.getElementById('email').value
@@ -39,21 +40,11 @@ function validateForm() {
 
     document.getElementById("check").style.visibility="hidden";
     document.getElementById("viewquery").style.visibility="hidden";
+ }
 
-    
-  
-   
-  
-   
-  
-
-    
-
-
-  }
-  
+  //  function for edit button
   function edit(){
-  //  var content=document.getElementById('form')
+  
     document.getElementById('form').style.visibility="visible";
     document.getElementById("check").style.visibility="visible";
     document.getElementById("viewquery").style.visibility="visible";

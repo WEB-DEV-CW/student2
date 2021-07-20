@@ -76,8 +76,6 @@ body {
     max-width: 100%;
 }
 
-
-
 .list{
     position: relative;
     left: 1200px;
@@ -129,10 +127,6 @@ img{
     width:33%;
     margin-left: 0px;
     font-weight: 700;
-    
-
-   
-
 }
 
 footer li a{
@@ -166,10 +160,6 @@ ul{
     width: 25%;
     font-weight: 100;
     text-align: center;
-   
-    
-    
-
 }
 .article div a{
     text-align: center;
@@ -183,9 +173,4 @@ ul{
         width:33%;
         margin-left: 0px;
         font-weight: 700;
-        
-    
-       
-    
-  
 }

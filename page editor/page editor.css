@@ -108,12 +108,7 @@ header h1{
     
 }
 
-.inbody{
-    padding: 50px;
-    background-color: beige;
-    height: 500px;
 
-}
 img{
     position: relative;
     top: 70px;
@@ -155,4 +150,7 @@ ul{
     font-size: 30px;
     border-radius: 20px;
 
+}
+.pageeditor{
+    text-align: center;
 }

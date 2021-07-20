@@ -3,9 +3,12 @@ function validateForm() {
   var email=document.getElementById('email').value
   var subject=document.getElementById('subject').value
   var details=document.getElementById('details').value
+  var check1=document.getElementById('Delivery').checked
+  var check2=document.getElementById('Product Details').checked
+  var check3=document.getElementById('Other Services').checked
 
 
-    if (name=="" ||email=="" ||subject==""||details=="") {
+    if (name=="" ||email=="" ||subject==""||details=="" ||  (check1==false &&check2==false&&check3==false)){
       alert("Fields must not be empty");
       return false;
     }
@@ -17,6 +20,15 @@ function validateForm() {
     var subject=document.getElementById('subject').value
     var details=document.getElementById('details').value
     var  result= "Name: "+name +"  "+"E-mail: "+email+"Subject: "+subject+"Details: "+details
+    var theme = document.getElementsByName("theme");
+    var selectedtheme;
+
+    for(var i = 0; i < theme.length; i++) {
+      if(theme[i].checked)
+         selectedtheme= theme[i].value;
+         document.getElementById('5').textContent = "Theme : "+selectedtheme;
+         
+   }
 
     document.getElementById("form").style.visibility="hidden";
 
@@ -28,14 +40,15 @@ function validateForm() {
     document.getElementById("check").style.visibility="hidden";
     document.getElementById("viewquery").style.visibility="hidden";
 
+    
+  
+   
+  
+   
   
 
     
 
- //   document.write("Name: "+name) 
- //   document.write("E-mail: "+email)
- //   document.write("Subject: "+subject)
- //   document.write("Details: "+details)
 
   }
   
@@ -46,3 +59,7 @@ function validateForm() {
     document.getElementById("viewquery").style.visibility="visible";
 
   }
+
+
+ 
+

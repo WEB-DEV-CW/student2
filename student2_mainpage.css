@@ -11,7 +11,7 @@ body {
     padding-top: 0%;
     color: black;
     width:100%;
-    overflow-x: hidden;
+   overflow-x:auto;
 }
 
 .menu {
@@ -145,22 +145,47 @@ ul{
 
 
 .article{
+    margin-left: 0cm;
     display: flex;
-    background-color: burlywood;
+   
+    background-color: rgb(169, 248, 186);
     width:100%;
-    border-radius: 10px;
+    border-radius: 0px;
     
 }
 
 .article div {
+    
     background-color: #f1f1f1;
     margin: 20px;
-    padding: 100px;
-    font-size: 30px;
-    border-radius: 20px;
-    width: 100%;
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 25%;
     font-weight: 100;
-    text-decoration: none;
     text-align: center;
+   
+    
+    
 
+}
+.article div a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.article1,.article2,.article3,.article4{
+   
+        display:block;
+        float:left;
+        width:33%;
+        margin-left: 0px;
+        font-weight: 700;
+        
+    
+       
+    
+  
 }
